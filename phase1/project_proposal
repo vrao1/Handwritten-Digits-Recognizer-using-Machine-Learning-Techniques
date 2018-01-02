@@ -1,0 +1,46 @@
+1. What is the problem that you are trying to solve? Describe it in one or two paragraphs.
+ ------------------------------------------------------------------------------------------------------
+ I am trying to solve to recognize handwritten digits by using a supervised machine learning 
+ 
+ algorithm known as Optimal Margin Classifier (OMC).
+ 
+ Polynomial classifiers are well-studied methods for generating complex decision surfaces.A particularly interesting subset of decision surfaces is the ones that correspond to hyperplanes that are at a maximum distance from the convex hulls of the two classes in the high-dimensional space of the product terms. Any polynomial of degree k in this “maximum margin” set can be computed by first computing the dot product of the input image with a subset of the training samples (called the “support vectors”), elevating the result to the k-th power, and linearly combining the numbers thereby obtained.
+ 
+ We will use a training algorithm that automatically tunes the capacity of the classification function by maximizing the margin between training examples and class boundary , optionally after removing some atypical or meaningless examples from the training data. The resulting classification function depends only on so-called supporting patterns. These are those training examples that are closest to the decision boundary and are usually a small subset of the training data.
+ 
+ We will use existing dataset for training and testing from the database of MNIST as well as self written scanned images as additional noisy data.
+ 
+ 2. Is this problem described on a website? Please answer Yes or No. If "Yes", please provide a URL.
+ ------------------------------------------------------------------------------------------------------------------
+ Yes ! 
+ 
+ The URL is https://www.kaggle.com/c/digit-recognizer
+ 
+ 3. Why are you interested in this problem?
+ ---------------------------------------------------------------------------------------------
+ I am interested in image processing, so it’s a better starting step in this direction.
+ Since I am planning to develop an algorithm which could be used to draw a colorful picture (not pencil drawn) of the convict's face based on the input taken from the witnesses in the field of criminology.Hence, I need to know basic foundations of the pattern recognition.
+ 
+ So this project is proved to be onset milestone for my next project.
+ 
+ 4. Is there an existing dataset for this problem? Please answer Yes or No. If "Yes", please provide a URL.
+ ------------------------------------------------------------------------------------------------------------------------
+ Yes !
+ 
+ http://yann.lecun.com/exdb/mnist/index.html
+ 
+ https://www.kaggle.com/c/digit-recognizer/data
+ 
+ 5. Will you collect additional data?  Please answer Yes or No. If "Yes", please provide details on how you plan to collect data.
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+ Yes ! 
+ 
+ My friends and I will write digits/characters including noise on bunch of papers and scan them to create additional images out of them few will be used for training and rest for testing dataset.
+ 
+ 6. Is this a research project you are working together with an advisor? Please answer Yes or No. If "Yes", please provide details: the name of the advisor, what existing approaches are there, etc.
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ No !
+ 
+ 7. We will choose some of the proposals and form groups for the selected proposals. Do you already have group members in mind? Please answer Yes or No. If "Yes", please write their names.
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ No !

@@ -1,0 +1,41 @@
+In this phase, you will finish collecting data, pre-process it, load it to python notebook, visualize it, and print statistics. You will submit a python notebook for your final result. If your dataset is smaller than 10MB, you'll submit your data as well. Otherwise, you'll provide a link for us to download the cleaned and pre-processed version.
+
+Here are more details for what the Python 3 notebook should contain:
+
+Project title, (Using Heading)
+Provide your name and members of the group, if you have a group (using Markdown)
+Project description (Using Markdown)
+Load the data to Python matrices and arrays and perform all the processing that needs to be done
+Print the data shape: i.e., the number of instances and number of features
+Visualize the target variable:
+If the target is categorical, provide a bar plot of the frequencies of each class.If the target is numerical, do the following
+Provide a histogram
+Print the following statistics: mean, variance
+Provide a box plot
+Visualize the features:
+For categorical variables, provide bar plots, for numerical features, provide histograms and statistics
+If there are too many features, visualize and provide statistics for only 10 of them that you choose, and provide only statistics for the rest (up to 90 of them)
+All visualizations should be done inline, and using matplotlib.
+
+If your data is
+
+Text
+Process it using one of the vectorizers
+Visualize the target variable as mentioned above
+For visualization of the features part of the project: visualizing and printing statistics for tens of thousands of features is impractical. Instead, print the top 100 words and their frequencies
+Images and speech
+Visualize the target variable as mentioned above
+For the features part, provide a detailed discussion of either
+How you are going to vectorize the data, if you are doing to use a vector based representation, or
+What kind of neural network structure (input layer, number of hidden layers and units, and the output layer) you will use
+Submission instructions:
+
+Each group has to make only one submission. Choose a group member who should submit it and others do not need to submit
+Here is a folder structure
+Create a folder named first_last where first is your first name and last is your last name.
+Create a folder named data under the top folder and put all the data in there (if the data is less than 10MB). Otherwise, put just a note file that has link to where we can download the python-ready version of it
+Your python notebook should be named first_last.ipynb wherefirst is your first name and last is your last name and it should be under the top folder.
+Zip your top folder and submit a zip file. Use zip; do not use other compression formats.
+To give you an example, for me, it would be as follows: I would submit a zipped folder named mustafa_bilgic.zip, which would contain a folder called mustafa_bilgic. Under that folder, there will be a python notebook called mustafa_bilgic.ipynb and a folder named data, which contains either the python-read version of the data or a note that explains where we can download the python-ready version of the data.
+
+The deadline is 11:59pm, Monday, October 31st, 2016. Late submissions will be penalized 1 point per minute.

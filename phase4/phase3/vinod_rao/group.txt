@@ -1,0 +1,12 @@
+Project-Evaluation
+
+Ajay Ramesh :
+
+1) Collected test dataset for random prediction of 10000 images from MNIST portal.
+2) MLPClassifier has been written  including evaluation and prediction statistics.
+
+Vinod Rao :
+
+1) Random Forest Classifier has been written including evaluation and prediction statistics.
+2) Documentation has been done across the note.
+3) Models have been compared based on their performances and selected the best one.
